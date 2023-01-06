@@ -108,7 +108,7 @@
 /* Service Section Style */
 .service-section {
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 .ser-content-1 {
   display: flex;
@@ -133,7 +133,7 @@
 }
 .ser-content-2 {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 50px 0 50px 50px;
   margin-top: 100px;
   background: url("./assets/images/watch.png"),
@@ -144,4 +144,65 @@
 }
 .ser-content-2 h2{
     color: white;
+}
+
+/* contact section style */
+.contact-section{
+    width: 100%;
+    background: #0079ba;
+    padding: 100px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 100px 0;
+}
+.contact-section h1{
+    color: white;
+}
+.form-content{
+    display: flex;
+    justify-content: space-between;
+}
+.form-box-1{
+    background: rgb(255, 255, 255);
+    width: 45%;
+    border-radius: 15px;
+    height: 520px; 
+    padding-top: 60px; 
+}
+.form-box-1 .input{
+    width: 80%;
+    height: 60px;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #0079ba;
+}
+.textarea{
+    height: 160px !important;
+}
+.form-box-1 .input-btn{
+    width: 40%;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-weight: bold;
+    background: #0079ba;
+    color: white;  
+}
+.form-box-1 .input-btn:hover{
+    border: 2px solid #0079ba;
+    background: white;
+    color: #0079ba;
+}
+.form-box-2{
+    width: 45%;
+    height: 520px;
+    background: white;
+    border-radius: 15px;
+}
+.form-box-2 img{
+    width: 100%;
+    border-radius: 15px;
 }
