@@ -14,7 +14,6 @@
 }
 .main-container {
   width: 1350px;
-  border: 2px solid #ddd;
   margin: auto;
 }
 
@@ -142,67 +141,128 @@
   background-blend-mode: overlay;
   background-size: cover;
 }
-.ser-content-2 h2{
-    color: white;
+.ser-content-2 h2 {
+  color: white;
 }
 
 /* contact section style */
-.contact-section{
-    width: 100%;
-    background: #0079ba;
-    padding: 100px;
-    text-align: center;
-    border-radius: 20px;
-    margin: 100px 0;
+.contact-section {
+  width: 100%;
+  background: #0079ba;
+  padding: 100px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 100px 0;
 }
-.contact-section h1{
-    color: white;
+.contact-section h1 {
+  color: white;
 }
-.form-content{
-    display: flex;
-    justify-content: space-between;
+.form-content {
+  display: flex;
+  justify-content: space-between;
 }
-.form-box-1{
-    background: rgb(255, 255, 255);
-    width: 45%;
-    border-radius: 15px;
-    height: 520px; 
-    padding-top: 60px; 
+.form-box-1 {
+  background: rgb(255, 255, 255);
+  width: 45%;
+  border-radius: 15px;
+  height: 520px;
+  padding-top: 60px;
 }
-.form-box-1 .input{
-    width: 80%;
-    height: 60px;
-    margin-top: 10px;
-    padding: 20px;
-    border-radius: 5px;
-    border: 2px solid #0079ba;
+.form-box-1 .input {
+  width: 80%;
+  height: 60px;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid #0079ba;
 }
-.textarea{
-    height: 160px !important;
+.textarea {
+  height: 160px !important;
 }
-.form-box-1 .input-btn{
-    width: 40%;
-    height: 60px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: 2px solid transparent;
-    font-size: 20px;
-    font-weight: bold;
-    background: #0079ba;
-    color: white;  
+.form-box-1 .input-btn {
+  width: 40%;
+  height: 60px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  font-size: 20px;
+  font-weight: bold;
+  background: #0079ba;
+  color: white;
 }
-.form-box-1 .input-btn:hover{
-    border: 2px solid #0079ba;
-    background: white;
-    color: #0079ba;
+.form-box-1 .input-btn:hover {
+  border: 2px solid #0079ba;
+  background: white;
+  color: #0079ba;
 }
-.form-box-2{
-    width: 45%;
-    height: 520px;
-    background: white;
-    border-radius: 15px;
+.form-box-2 {
+  width: 45%;
+  height: 520px;
+  background: white;
+  border-radius: 15px;
 }
-.form-box-2 img{
-    width: 100%;
-    border-radius: 15px;
+.form-box-2 img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* Footer Section style */
+.footer {
+  background: #151414;
+}
+.footer-section {
+  width: 1350px;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-left {
+  width: 40%;
+}
+.footer-left h2 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.footer-left p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.footer-left a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+.footer-right {
+  width: 30%;
+}
+.footer-right h3 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.footer-right .email {
+  width: 100%;
+  padding: 20px 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background: #151414;
+  margin-bottom: 30px;
+}
+.footer-right .btn {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px 15px;
+  background: #0079ba;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: white;
+}
+.footer-right .btn:hover {
+  border: 2px solid #0079ba;
+  color: #0079ba;
+  background: #151414;
 }
