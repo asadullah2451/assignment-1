@@ -12,6 +12,11 @@
 .text-center {
   text-align: center;
 }
+.main-container{
+    width: 1350px;
+    border: 2px solid #ddd;
+    margin: auto;
+}
 
 /* Banner Section Style */
 .banner-section {
@@ -60,3 +65,43 @@
   background: rgba(255, 255, 255, 0.226);
   color: white;
 }
+/* About Section Style */
+.about-section{
+    display: flex;
+    align-items: center;
+    margin: 100px 0;
+    gap: 5rem;
+}
+.about-content-1 img{
+    width: 700px;
+}
+.about-content-2{
+    width: 50%;
+    margin-left: auto;
+    margin-top: 11rem;
+}
+.section-title{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.description{
+    color: #444343;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.about-content-2 ul{
+    list-style: none;
+    line-height: 45px;
+    font-size: 20px;
+    color: #444343;
+}
+.about-content-2 ul li::before{
+    content:"\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    margin-right: 8px;
+    color: #16D887;
+    font-size: 22px;
+}
+
